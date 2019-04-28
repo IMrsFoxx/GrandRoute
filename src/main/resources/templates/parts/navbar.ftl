@@ -1,13 +1,14 @@
+<#include "security.ftl">
 <div class="container-fluid">
     <div class="row justify-content-end" id="ots">
         <div class="infoone col-lg-2">
             <p><i class="fab fa-sourcetree"></i> My Geo Location</p>
         </div>
         <div class="infotwo col-lg-2">
-            <p><i class="far fa-envelope"></i> My E-mail addres</p>
+            <p><i class="far fa-envelope"></i>GrandRoute@Gmail.com</p>
         </div>
         <div class="infothr col-lg-2">
-            <p><i class="fas fa-phone-square"></i> My phone number</p>
+            <p><i class="fas fa-phone-square"></i>+823143123</p>
         </div>
         <div class="infthri col-lg-2">
             <div id="containerIntro">
@@ -27,18 +28,24 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item active ">
-                <a class="nav-link" href="#" id="kok"><p id="lol">Home</p> <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="/greeting" id="kok"><p id="lol">Home</p> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#"><p id="lol">Features</p></a>
+                <a class="nav-link" href="#"><p id="lol">Gallery</p></a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#"><p id="lol">Pricing</p></a>
+                <a class="nav-link" href="#"><p id="lol">Serives</p></a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#"><p id="lol">Info</p></a>
             </li>
+            <#if isAdmin>
+            <li class="nav-item ">
+                <a class="nav-link" href="/user"><p id="lol">User List</p></a>
+            </li>
+            </#if>
         </ul>
-    </div>
+        <div class="navbar-text">${name}</div>
+     </div>
 </nav>

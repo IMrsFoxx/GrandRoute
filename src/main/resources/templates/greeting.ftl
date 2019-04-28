@@ -136,15 +136,19 @@
                     <div class="form-group">
                         <label for="exampleInputEmail1">Your name</label>
                         <input type="text" name="nameUser" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you Name">
+                        <input type="hidden" name="_csrf" value="{{_csrf.token}}">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Email</label>
                         <input type="email" name="emailUser" class="form-control" id="exampleInputPassword1" placeholder="Enter E-mail">
+                        <input type="hidden" name="_csrf" value="{{_csrf.token}}">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Phone</label>
                         <input type="text" name="phoneUser" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+                        <input type="hidden" name="_csrf" value="{{_csrf.token}}">
                     </div>
+                    <input type="hidden" name="_csrf" value="{{_csrf.token}}">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
@@ -178,6 +182,5 @@
             </div>
         </div>
     </div>
-
 
 </@c.page>

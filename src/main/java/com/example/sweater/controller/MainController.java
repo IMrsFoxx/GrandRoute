@@ -16,13 +16,16 @@ public class MainController {
     private HotelBookingRepo hotelBookingRepo;
 
     @GetMapping("/")
-    public String greeting() {
-        return "greeting";
+    public String home() {
+        return "home";
     }
 
 
-
-    @PostMapping
+    @GetMapping("/greeting")
+    public String greeting(){
+        return "greeting";
+    }
+    @PostMapping("/greeting")
     public String add(@RequestParam String nameUser, @RequestParam String emailUser,
                       @RequestParam String phoneUser)
                       {
