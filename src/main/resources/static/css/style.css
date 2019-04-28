@@ -187,14 +187,7 @@ a {
     font-family: 'Baskerville Bold', arial, serif;
     font-size: 50px;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, sans-serif;
-    background: url(http://images.vfl.ru/ii/1513151627/86f4810d/19788129.jpg
-    ) no-repeat center top / cover;
-    height: 100vh;
-}
+
 .smoke {
     position: absolute;
     top: 50%;
