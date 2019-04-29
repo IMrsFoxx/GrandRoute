@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.util.Map;
 
 @Controller
@@ -22,20 +23,18 @@ public class MainController {
 
 
     @GetMapping("/greeting")
-    public String greeting(){
+    public String greeting() {
         return "greeting";
     }
+
     @PostMapping("/greeting")
     public String add(@RequestParam String nameUser, @RequestParam String emailUser,
-                      @RequestParam String phoneUser)
-                      {
-        HotelBooking message = new HotelBooking(nameUser,emailUser,phoneUser);
+                      @RequestParam String phoneUser) {
+        HotelBooking message = new HotelBooking (nameUser, emailUser, phoneUser);
 
-        hotelBookingRepo.save(message);
-
+        hotelBookingRepo.save (message);
 
         return "greeting";
     }
-
 
 }

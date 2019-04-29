@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 public class HotelBooking {
@@ -11,8 +12,11 @@ public class HotelBooking {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id_order;
 
+    @NotBlank(message = "Please fill this field")
     private String nameClient;
+    @NotBlank(message = "Please fill this field")
     private String emailClient;
+    @NotBlank(message = "Please fill this field")
     private String numberClient;
 
 

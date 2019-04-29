@@ -1,14 +1,15 @@
 <#include "security.ftl">
+<#import "login.ftl" as l>
 <div class="container-fluid">
     <div class="row justify-content-end" id="ots">
         <div class="infoone col-lg-2">
-            <p><i class="fab fa-sourcetree"></i> Dorfstrasse, 34, Switzerland</p>
+            <p><i class="fab fa-sourcetree"></i> Switzerland,Oberdorfstra 23</p>
         </div>
         <div class="infotwo col-lg-2">
-            <p><i class="far fa-envelope"></i> GrandRoute@gmail.com</p>
+            <p><i class="far fa-envelope"></i>GrandRoute@gmail.com</p>
         </div>
         <div class="infothr col-lg-2">
-            <p><i class="fas fa-phone-square"></i> +41 3382 275 66</p>
+            <p><i class="fas fa-phone-square"></i>+41 3382 275 66</p>
         </div>
         <div class="infthri col-lg-2">
             <div id="containerIntro">
@@ -28,24 +29,33 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarNavDropdown">
         <ul class="navbar-nav">
+            <#if user??>
             <li class="nav-item">
                 <a class="nav-link" href="/greeting" id="kok"><p id="lol">Home</p> <span class="sr-only">(current)</span></a>
             </li>
+            </#if>
+            <#if user??>
             <li class="nav-item ">
                 <a class="nav-link" href="#"><p id="lol">Gallery</p></a>
             </li>
+            </#if>
+            <#if user??>
             <li class="nav-item ">
                 <a class="nav-link" href="#"><p id="lol">Serives</p></a>
             </li>
+            </#if>
+            <#if user??>
             <li class="nav-item ">
                 <a class="nav-link" href="#"><p id="lol">Info</p></a>
             </li>
+            </#if>
             <#if isAdmin>
             <li class="nav-item ">
                 <a class="nav-link" href="/user"><p id="lol">User List</p></a>
             </li>
             </#if>
         </ul>
-        <div class="navbar-text">${name}</div>
+        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5> <#else>Please, login</#if></div>
+        <@l.logout />
      </div>
 </nav>
