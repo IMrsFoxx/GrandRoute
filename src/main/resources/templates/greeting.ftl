@@ -14,9 +14,9 @@
                     <div class="smoke">
                         <ul>
 
-                            <li>O</li>
-                            <li>K</li>
-                            <li>E</li>
+                            <li>  YOU DON'T</li>
+                            <li> JUST STAY HERE,</li>
+                            <li>YOU ENJOY YOUR STAY.</li>
                         </ul>
                     </div>
                 </div>
@@ -53,24 +53,24 @@
     <div class="container-fluid" id="ph">
         <div class="row">
             <div class="first col-lg-3">
-                <p id="op"><img src="/static/image/block1.jpg" alt="1" id="image"></p>
+                <p id="op"><img src="/static/image/block4.jpg" alt="1" id="image"></p>
                 <h1 id="op">Comfortable</h1>
-                <p id="op">Edio dignissimos ducimus qui blan<br>ditiis praesentium voluptatum<br>os dolores et.</p>
+                <p id="op">We always care about convenience,<br> comfort and create <br>a homely atmosphere</p>
             </div>
             <div class="two col-lg-3">
                 <p id="op"><img src="/static/image/block2.jpg" alt="1" id="image"></p>
                 <h1 id="op">Modern</h1>
-                <p id="op">Adio dignissimos ducimus qui blan<br>ditiis praesentium voluptatum <br>os dolores et.</p>
+                <p id="op">From the huge windows of modern bedrooms <br>you can watch and enjoy the view,<br>presenting yourself in a fairy tale.</p>
             </div>
             <div class="thre col-lg-3">
-                <p id="op"><img src="/static/image/block3.jpg" alt="1" id="image"></p>
+                <p id="op"><img src="/static/image/block1.jpg" alt="1" id="image"></p>
                 <h1 id="op">Available</h1>
-                <p id="op">Fignissimos ducimus qui blan<br>ditiis praesentium voluptatum<br>os dolores et.</p>
+                <p id="op">Our hotel also took care of their leisure time,<br> you can swim in the pool, visit the gym <br> or relax in the spa at any time.</p>
             </div>
             <div class="four col-lg-3">
-                <p id="op"><img src="/static/image/block4.jpg" alt="1" id="image"></p>
+                <p id="op"><img src="/static/image/block2.3.jpg" alt="1" id="image"></p>
                 <h1 id="op">Luxury</h1>
-                <p id="op">Accusamus et iusto odio dignissimos<br>ducimus<br>qui blanditiis praesentium<br>voluptatum corrupti quos dolor.</p>
+                <p id="op">Luxury rooms provide guests with <br>the best rooms with free drinks<br>and additional comfort.</p>
             </div>
         </div>
     </div>
@@ -81,8 +81,8 @@
 
             </div>
             <div class="welc col-lg-4" id="top">
-                <p id="hp"><img src="/static/image/logo.png" alt="logo" height="300px" width="450px"></p>
-                <h1 id="hp">WELCOME</h1>
+                <p id="hp"><img src="/static/image/logo.png" alt="logo" height="90px" width="110px"></p>
+                <h1 id="hp">WELCOME!</h1>
                 <h2 id="hp">COMFORTABLE HOTEL OF YOUR DREAMS</h2>
                 <p4 id="hp">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Fugit ullam animi tenetur voluptate quam est esse! Nihil!</p4>
             </div>
@@ -132,7 +132,7 @@
 
             <div class="formc col-lg-3 ml-5">
                 <form method="post">
-                    <h1>Book a Room</h1>
+                    <h1>Contact Form</h1>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Your name</label>
                         <input type="text" name="nameUser" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you Name">
@@ -158,20 +158,20 @@
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="cok col-lg-3" id="hpi">
-                <h3>NikHotel</h3>
-                <p>copyright 2019 Privacy pol</p>
+                <h3>GrandRoute</h3>
+                <p>March, 2019</p>
             </div>
             <div class="suck col-lg-3" id="hpi">
                 <h3>E-mail Us</h3>
-                <p>mail@mail.mail</p>
+                <p>GrandRoute@gmail.com</p>
             </div>
             <div class="dick col-lg-3" id="hpi">
                 <h3>Follow us</h3>
-                <p>PERFECT MENU FROM<br>OUR COOK</p>
+                <p>Facebook,WhatsApp<br>Instagram</p>
             </div>
             <div class="tits col-lg-3" id="hpi">
                 <h3>Address</h3>
-                <p>9870 St Vincen p;ace<br>Glasgowr, DC 45 Fr 45</p>
+                <p>Dorfstrasse, 34, Switzerland</p>
             </div>
         </div>
     </div>

@@ -2,13 +2,13 @@
 <div class="container-fluid">
     <div class="row justify-content-end" id="ots">
         <div class="infoone col-lg-2">
-            <p><i class="fab fa-sourcetree"></i> My Geo Location</p>
+            <p><i class="fab fa-sourcetree"></i> Dorfstrasse, 34, Switzerland</p>
         </div>
         <div class="infotwo col-lg-2">
-            <p><i class="far fa-envelope"></i>GrandRoute@Gmail.com</p>
+            <p><i class="far fa-envelope"></i> GrandRoute@gmail.com</p>
         </div>
         <div class="infothr col-lg-2">
-            <p><i class="fas fa-phone-square"></i>+823143123</p>
+            <p><i class="fas fa-phone-square"></i> +41 3382 275 66</p>
         </div>
         <div class="infthri col-lg-2">
             <div id="containerIntro">
