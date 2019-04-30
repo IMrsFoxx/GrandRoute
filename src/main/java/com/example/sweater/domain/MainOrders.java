@@ -24,6 +24,8 @@ public class MainOrders {
     private String Gym;
     private String Spa;
 
+
+
     @ElementCollection(targetClass = Role.class,fetch = FetchType.EAGER)
     @CollectionTable(name = "room_type", joinColumns = @JoinColumn(name = "orders_id"))
     @Enumerated(EnumType.STRING)
@@ -127,7 +129,8 @@ public class MainOrders {
         Spa = spa;
     }
 
-    public Set<TypeRoom> getTypeRooms() {
+    public Set<TypeRoom> getTypeRooms()
+    {
         return typeRooms;
     }
 

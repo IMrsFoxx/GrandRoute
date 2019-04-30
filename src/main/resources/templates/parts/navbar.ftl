@@ -31,7 +31,7 @@
         <ul class="navbar-nav">
             <#if user??>
             <li class="nav-item">
-                <a class="nav-link" href="/greeting" id="kok"><p id="lol">Home</p> <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/greeting" id="kok"><p id="lol">Home</p></a>
             </li>
             </#if>
             <#if user??>
@@ -41,7 +41,7 @@
             </#if>
             <#if user??>
             <li class="nav-item ">
-                <a class="nav-link" href="#"><p id="lol">Serives</p></a>
+                <a class="nav-link" href="/mainorder/ServicePage"><p id="lol">Serives</p></a>
             </li>
             </#if>
             <#if user??>
@@ -55,7 +55,7 @@
             </li>
             </#if>
         </ul>
-        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5> <#else>Please, login</#if></div>
-        <@l.logout />
+        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5><@l.logout /> <#else>Please, login <a href="/login">Log in</a></#if></div>
+
      </div>
 </nav>

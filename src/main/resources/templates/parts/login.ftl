@@ -37,7 +37,7 @@
                      </div>
                  </#if>
     </div>
-    </div>
+
     </#if>
     <input type="hidden" name="_csrf" value="${_csrf.token}" />
     <#if !isRegisterForm><a href="/registration">Add new user</a></#if>

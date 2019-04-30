@@ -99,5 +99,7 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-mail:2.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="moment" level="application" />
+    <orderEntry type="library" name="tempusdominus-bootstrap-4" level="application" />
   </component>
 </module>

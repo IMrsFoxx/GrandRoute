@@ -30,10 +30,7 @@ public class RegistrationController {
     @Value("${recaptcha.secret}")
     private String secret;
 
-    @Bean
-    public RestTemplate getRestTemplate(){
-        return new RestTemplate ();
-    }
+
 
     @Autowired
     private RestTemplate restTemplate;

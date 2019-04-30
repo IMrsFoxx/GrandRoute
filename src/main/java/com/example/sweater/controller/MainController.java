@@ -13,8 +13,12 @@ import java.util.Map;
 
 @Controller
 public class MainController {
+    private final HotelBookingRepo hotelBookingRepo;
+
     @Autowired
-    private HotelBookingRepo hotelBookingRepo;
+    public MainController(HotelBookingRepo hotelBookingRepo) {
+        this.hotelBookingRepo = hotelBookingRepo;
+    }
 
     @GetMapping("/")
     public String home() {
