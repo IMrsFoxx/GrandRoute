@@ -15,7 +15,7 @@ public class MainOrders {
     private String dateCome;
     private String dateArrive;
 
-    @ElementCollection(targetClass = Role.class,fetch = FetchType.EAGER)
+    @ElementCollection(targetClass = FoodType.class,fetch = FetchType.EAGER)
     @CollectionTable(name = "food_type", joinColumns = @JoinColumn(name = "orders_id"))
     @Enumerated(EnumType.STRING)
     private Set<FoodType> foodTypes;
@@ -26,7 +26,7 @@ public class MainOrders {
 
 
 
-    @ElementCollection(targetClass = Role.class,fetch = FetchType.EAGER)
+    @ElementCollection(targetClass = TypeRoom.class,fetch = FetchType.EAGER)
     @CollectionTable(name = "room_type", joinColumns = @JoinColumn(name = "orders_id"))
     @Enumerated(EnumType.STRING)
     private Set<TypeRoom> typeRooms;

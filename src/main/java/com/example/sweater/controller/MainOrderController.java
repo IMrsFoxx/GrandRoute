@@ -2,7 +2,6 @@ package com.example.sweater.controller;
 
 import com.example.sweater.domain.FoodType;
 import com.example.sweater.domain.MainOrders;
-import com.example.sweater.domain.Role;
 import com.example.sweater.domain.TypeRoom;
 import com.example.sweater.repos.MainOrdersRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,17 +12,19 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/mainorder")
 public class MainOrderController {
 
+    private final MainOrdersRepo mainOrdersRepo;
+
     @Autowired
-    private MainOrdersRepo mainOrdersRepo;
+    public MainOrderController(MainOrdersRepo mainOrdersRepo) {
+        this.mainOrdersRepo = mainOrdersRepo;
+    }
 
 
     @GetMapping("/ServicePage")
@@ -75,5 +76,12 @@ public class MainOrderController {
 
         return "redirect:/greeting";
     }
+
+    @GetMapping("/orderList")
+    public String orderlist(Model model){
+        model.addAttribute("orders",mainOrdersRepo.findAll ());
+        return "orderList";
+    }
+
 
 }

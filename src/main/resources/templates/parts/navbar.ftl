@@ -54,6 +54,12 @@
                 <a class="nav-link" href="/user"><p id="lol">User List</p></a>
             </li>
             </#if>
+            <#if isAdmin>
+            <li class="nav-item ">
+                <a class="nav-link" href="/mainorder/orderList"><p id="lol">List order</p></a>
+            </li>
+            </#if>
+
         </ul>
         <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5><@l.logout /> <#else>Please, login <a href="/login">Log in</a></#if></div>
 

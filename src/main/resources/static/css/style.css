@@ -45,7 +45,7 @@
 
 /*noinspection CssInvalidPropertyValue*/
 #ots{
-    background-color: black;
+    background-color:black;
     opacity: 0.8;
     position: absolute;
     top: 0;
@@ -56,7 +56,8 @@
     height: 77px;
 }
 .navbar{
-    opacity: 0.9;
+    background-color:black;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -77,13 +78,13 @@
 }
 a {
     display: inline-block;
-    color: #8e24aa;
+    color: #0288D1;
     line-height: 1;
     text-decoration:none;
     cursor: pointer;
 }
 #lol:after {
-    background-color:  #8e24aa;
+    background-color:  #0288D1;
     display: block;
     content: "";
     height: 5px;
@@ -118,13 +119,20 @@ a {
 }
 #pin{
     height: 55px;
-    background-color: #a3508d;
+    background-color: #0288D1;
 }
 #logo{
     text-align: center;
 }
 #hp{
     text-align: center;
+    font-family: "Baskerville Old Face";
+    font-size: 40px;
+}
+#hpp{
+    text-align: center;
+    font-family: "Baskerville Old Face";
+    font-size: 20px;
 }
 #top{
     margin-top: 25px;
@@ -159,7 +167,7 @@ a {
     height: 50px;
     background-color: rgb(168, 161, 161);
 }
-.carousel-item {
+#itm {
     height: 850px; /* Высота слайда */
     position: relative;
     overflow: hidden;
@@ -167,6 +175,14 @@ a {
 #zi{
     margin-bottom: 320px;
 }
+#fonts{
+    color:#fff;
+    font-size: 80px;
+    font-family: "Baskerville Old Face";
+    background-color: black;
+    opacity: 0.7;
+}
+
 
 table {
     overflow:hidden;

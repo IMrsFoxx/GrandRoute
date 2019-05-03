@@ -8,31 +8,22 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" id="itm">
+                <img class="d-block w-100" src="/static/image/winter.jpg" >
+                <div class="carousel-caption d-md-block" id="zi">
+                    <h1 id="fonts">YOU DON'T<br>JUST STAY HERE,<br>YOU ENJOY YOUR STAY.</h1>
+                </div>
+            </div>
+            <div class="carousel-item" id="itm">
                 <img class="d-block w-100" src="/static/image/sl1.jpg" >
                 <div class="carousel-caption d-md-block" id="zi">
-                    <div class="smoke">
-                        <ul>
-
-                            <li>  YOU DON'T</li>
-                            <li> JUST STAY HERE,</li>
-                            <li>YOU ENJOY YOUR STAY.</li>
-                        </ul>
-                    </div>
+                    <h1 id="fonts">YOU DON'T<br>JUST STAY HERE,<br>YOU ENJOY YOUR STAY.</h1>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/static/image/sl2.jpg" >
+            <div class="carousel-item" id="itm">
+                <img class="d-block w-100" src="/static/image/bedroom.jpg">
                 <div class="carousel-caption d-md-block" id="zi">
-                    <h2 id="fonts">YOU DON'T<br>JUST STAY HERE,</h2>
-                    <h3 id="secondFonts">YOU ENJOY YOUR STAY.</h3>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="/static/image/sl3.jpg">
-                <div class="carousel-caption d-md-block" id="zi">
-                    <h2 id="fonts">YOU DON'T<br>JUST STAY HERE,</h2>
-                    <h3 id="secondFonts">YOU ENJOY YOUR STAY.</h3>
+                    <h1 id="fonts">YOU DON'T<br>JUST STAY HERE,<br>YOU ENJOY YOUR STAY.</h1>
                 </div>
             </div>
         </div>
@@ -83,20 +74,16 @@
             <div class="welc col-lg-4" id="top">
                 <p id="hp"><img src="/static/image/logo.png" alt="logo" height="90px" width="110px"></p>
                 <h1 id="hp">WELCOME!</h1>
-                <h2 id="hp">COMFORTABLE HOTEL OF YOUR DREAMS</h2>
-                <p4 id="hp">Lorem ipsum dolor, sit amet consectetur adipisicing elit.Fugit ullam animi tenetur voluptate quam est esse! Nihil!</p4>
+                <h2 id="hpp">COMFORTABLE HOTEL OF YOUR DREAMS</h2>
             </div>
             <div class="col-lg-4" id="top">
-
             </div>
         </div>
     </div>
 
     <!--FORM-->
-    <div class="container-fluid mt-5 mb-5" id="forforms">
+    <div class="container-fluid mt-5" id="forforms">
         <div class="row">
-
-
             <div class="slide col-lg-7 mr-5">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -127,12 +114,20 @@
                             <img class="d-block w-100" src="/static/image/block2.6.jpg" alt="РўСЂРµС‚РёР№ СЃР»Р°Р№Рґ">
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
 
             <div class="formc col-lg-3 ml-5">
                 <form method="post">
-                    <h1>Book a Room</h1>
+                    <h1>Contact Form</h1>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Your name</label>
                         <input type="text" autofocus required name="nameUser" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you Name">
@@ -156,7 +151,7 @@
         </div>
     </div>
     <hr>
-    <div class="container-fluid mt-5">
+    <div class="container-fluid">
         <div class="row">
             <div class="cok col-lg-3" id="hpi">
                 <h3>GrandRoute</h3>
