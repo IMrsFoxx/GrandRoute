@@ -21,15 +21,10 @@ public class MainController {
     }
 
     @GetMapping("/")
-    public String home() {
-        return "home";
-    }
-
-
-    @GetMapping("/greeting")
     public String greeting() {
         return "greeting";
     }
+
 
     @PostMapping("/greeting")
     public String add(@RequestParam String nameUser, @RequestParam String emailUser,

@@ -72,7 +72,7 @@
 
             </div>
             <div class="welc col-lg-4" id="top">
-                <p id="hp"><img src="/static/image/logo.png" alt="logo" height="90px" width="110px"></p>
+                <p id="hp"><img src="/static/image/logo1.png" alt="logo" height="90px" width="110px"></p>
                 <h1 id="hp">WELCOME!</h1>
                 <h2 id="hpp">COMFORTABLE HOTEL OF YOUR DREAMS</h2>
             </div>
