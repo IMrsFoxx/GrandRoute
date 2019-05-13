@@ -1,5 +1,5 @@
 <#include "security.ftl">
-<#import "login.ftl" as l>
+<#import "loginPage.ftl" as l>
 <div class="container-fluid">
     <div class="row justify-content-end" id="ots">
         <div class="infoone col-lg-2">
@@ -36,12 +36,12 @@
             </#if>
             <#if user??>
             <li class="nav-item ">
-                <a class="nav-link" href="#"><p id="lol">Gallery</p></a>
+                <a class="nav-link" href="/Gallery"><p id="lol">Gallery</p></a>
             </li>
             </#if>
             <#if user??>
             <li class="nav-item ">
-                <a class="nav-link" href="/mainorder/ServicePage"><p id="lol">Serives</p></a>
+                <a class="nav-link" href="/mainorder/ServicePage"><p id="lol">Services</p></a>
             </li>
             </#if>
             <#if user??>
@@ -61,7 +61,7 @@
             </#if>
 
         </ul>
-        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5><@l.logout /> <#else>Please, login <a href="/login">Log in</a></#if></div>
+        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5><@l.logout /> <#else>Please, <a href="/login">Log in</a></#if></div>
 
      </div>
 </nav>

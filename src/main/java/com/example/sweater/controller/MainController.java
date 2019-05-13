@@ -36,4 +36,9 @@ public class MainController {
         return "greeting";
     }
 
+    @GetMapping("/Gallery")
+    public String gallery(){
+        return "Gallery";
+    }
+
 }
