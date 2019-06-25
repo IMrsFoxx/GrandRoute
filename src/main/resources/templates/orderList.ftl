@@ -15,6 +15,7 @@
             <th>Swimming-pool</th>
             <th>SPA</th>
             <th>Type room</th>
+            <th>Delete</th>
         </tr>
         </thead>
         <tbody>
@@ -31,8 +32,18 @@
              <td>${order.getSwimPool()}</td>
              <td>${order.getSpa()}</td>
              <td><#list order.getTypeRooms() as room>${room}<#sep>, </#list></td>
+             <td><a href="/mainorder/orderList/${order.order_id}">Delete</a></td>
          </tr>
          </#list>
         </tbody>
     </table>
+ <style>
+     body{
+         background-image: url(/static/image/bcgrCatalog2.jpg); /* Путь к фоновому изображению */
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }
+ </style>
 </@c.page>

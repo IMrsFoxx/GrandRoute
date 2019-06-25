@@ -1,29 +1,8 @@
 
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
 
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
-}
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -36,20 +15,19 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
-}
+   }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.7;
-	color: #666666;
-	margin: 0px;
+ 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
+   color: white;
+
 }
 
 a:focus {
@@ -66,16 +44,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular;
-	font-size: 14px;
+ 	font-size: 16px;
 	line-height: 1.7;
-	color: #666666;
+    color: white;
 	margin: 0px;
 }
 
 ul, li {
 	margin: 0px;
 	list-style-type: none;
+  color: white;
+
 }
 
 
@@ -144,23 +123,20 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
-  font-size: 15px;
-  color: #999999;
+   font-size: 16px;
+  color: white;
   line-height: 1.4;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
-  font-size: 15px;
-  color: #666666;
+   font-size: 16px;
+  color: white;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Poppins-Regular;
-  font-size: 16px;
-  color: #666666;
+   font-size: 16px;
+  color: white;
   line-height: 1.4;
 }
 
@@ -218,11 +194,8 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
-  background: #e8519e;
-  background: -webkit-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: -o-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: -moz-linear-gradient(bottom, #e8519e, #c77ff2);
-  background: linear-gradient(bottom, #e8519e, #c77ff2);
+
+
   opacity: 0.8;
 }
 
@@ -243,8 +216,7 @@ iframe {
 .login100-form-title {
   display: block;
   width: 100%;
-  font-family: Poppins-Bold;
-  font-size: 39px;
+   font-size: 39px;
   color: #333333;
   line-height: 1.2;
   text-align: left;
@@ -263,9 +235,8 @@ iframe {
 }
 
 .label-input100 {
-  font-family: Poppins-SemiBold;
-  font-size: 18px;
-  color: #999999;
+   font-size: 16px;
+  color: #212121;
   line-height: 1.2;
   padding-left: 2px;
 }
@@ -275,9 +246,8 @@ iframe {
   width: 100%;
   height: 50px;
   background: transparent;
-  font-family: Poppins-Regular;
-  font-size: 22px;
-  color: #555555;
+   font-size: 16px;
+  color: #212121;
   line-height: 1.2;
   padding: 0 2px;
 }
@@ -307,10 +277,10 @@ iframe {
   transition: all 0.4s;
 
   background: #d5007d;
-  background: -webkit-linear-gradient(45deg, #d5007d, #e53935);
-  background: -o-linear-gradient(45deg, #d5007d, #e53935);
-  background: -moz-linear-gradient(45deg, #d5007d, #e53935);
-  background: linear-gradient(45deg, #d5007d, #e53935);
+  background: -webkit-linear-gradient(45deg, #2E7D32, #2E7D32);
+  background: -o-linear-gradient(45deg, #2E7D32, #2E7D32);
+  background: -moz-linear-gradient(45deg, #2E7D32, #2E7D32);
+  background: linear-gradient(45deg, #2E7D32, #2E7D32);
 }
 
 
@@ -340,8 +310,7 @@ iframe {
 
 .label-checkbox100::before {
   content: "\f00c";
-  font-family: FontAwesome;
-  font-size: 13px;
+   font-size: 16px;
   color: transparent;
 
   display: -webkit-box;
@@ -366,7 +335,7 @@ iframe {
 }
 
 .input-checkbox100:checked + .label-checkbox100::before {
-  color: #c87ef0;
+  color: #2E7D32;
 }
 
 /*------------------------------------------------------------------
@@ -422,8 +391,7 @@ iframe {
   min-width: 244px;
   height: 50px;
 
-  font-family: Poppins-Medium;
-  font-size: 16px;
+   font-size: 16px;
   color: #fff;
   line-height: 1.2;
 }
@@ -457,8 +425,7 @@ iframe {
   right: 2px;
   pointer-events: none;
 
-  font-family: Poppins-Medium;
-  color: #c80000;
+   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
   text-align: left;
@@ -474,7 +441,7 @@ iframe {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
+  font-family: "Baskerville Old Face";
   display: block;
   position: absolute;
   color: #c80000;
@@ -502,8 +469,7 @@ iframe {
 
 .true-validate::after {
   content: "\f26b";
-  font-family: Material-Design-Iconic-Font;
-  font-size: 22px;
+   font-size: 22px;
   color: #00ad5f;
   display: -webkit-box;
   display: -webkit-flex;

@@ -223,9 +223,9 @@
           border-right: none;
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; }
-      .daterangepicker.ltr .calendar.right {
+      .daterangepicker.ltr .calendar.rights {
         margin-left: 0; }
-        .daterangepicker.ltr .calendar.right .calendar-table {
+        .daterangepicker.ltr .calendar.rights .calendar-table {
           border-left: none;
           border-top-left-radius: 0;
           border-bottom-left-radius: 0; }
@@ -245,9 +245,9 @@
           border-left: none;
           border-top-left-radius: 0;
           border-bottom-left-radius: 0; }
-      .daterangepicker.rtl .calendar.right {
+      .daterangepicker.rtl .calendar.rights {
         margin-right: 0; }
-        .daterangepicker.rtl .calendar.right .calendar-table {
+        .daterangepicker.rtl .calendar.rights .calendar-table {
           border-right: none;
           border-top-right-radius: 0;
           border-bottom-right-radius: 0; }

@@ -14,4 +14,13 @@ User editor
 <input type="hidden" value="${_csrf.token}" name="_csrf">
 <button type="submit">Save</button>
 </form>
+ <style>
+     body{
+         background-image: url(/static/image/bcgrCatalog2.jpg); /* Путь к фоновому изображению */
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+     }
+ </style>
 </@c.page>

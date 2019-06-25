@@ -1501,7 +1501,7 @@
         },
 
         formInputsChanged: function(e) {
-            var isRight = $(e.target).closest('.calendar').hasClass('right');
+            var isRight = $(e.target).closest('.calendar').hasClass('rights');
             var start = moment(this.container.find('input[name="daterangepicker_start"]').val(), this.locale.format);
             var end = moment(this.container.find('input[name="daterangepicker_end"]').val(), this.locale.format);
 
@@ -1535,7 +1535,7 @@
             // the start. This allows someone to edit the end of a date range without
             // re-selecting the beginning, by clicking on the end date input then
             // using the calendar.
-            var isRight = $(e.target).closest('.calendar').hasClass('right');
+            var isRight = $(e.target).closest('.calendar').hasClass('rights');
             if (isRight) {
                 this.endDate = null;
                 this.setStartDate(this.startDate.clone());

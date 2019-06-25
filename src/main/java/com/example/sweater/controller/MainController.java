@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.validation.Valid;
-import java.util.Map;
-
 @Controller
 public class MainController {
     private final HotelBookingRepo hotelBookingRepo;
@@ -26,14 +23,14 @@ public class MainController {
     }
 
 
-    @PostMapping("/greeting")
+    @PostMapping("/")
     public String add(@RequestParam String nameUser, @RequestParam String emailUser,
                       @RequestParam String phoneUser) {
         HotelBooking message = new HotelBooking (nameUser, emailUser, phoneUser);
 
         hotelBookingRepo.save (message);
 
-        return "greeting";
+        return "redirect:/";
     }
 
     @GetMapping("/Gallery")
@@ -41,4 +38,6 @@ public class MainController {
         return "Gallery";
     }
 
+    @GetMapping("/info")
+    public String info(){return "info";}
 }

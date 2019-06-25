@@ -7,34 +7,34 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active" id="itm">
-            <img class="d-block w-100" src="/static/image/winter.jpg" >
+            <img class="d-block w-100" src="/static/image/rest.jpg" >
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/sl1.jpg" >
+            <img class="d-block w-100" src="/static/image/swPool.jpg" >
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/gym2.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/gym.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/food.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/hotelmbStandart.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/room.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/spa.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/dg.jpg">
         </div>
         <div class="carousel-item" id="itm">
-            <img class="d-block w-100" src="/static/image/bedroom.jpg">
+            <img class="d-block w-100" src="/static/image/spa2.jpg">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -1,6 +1,6 @@
 <#import "parts/common.ftl" as c>
-<#import "parts/Service.ftl" as s>
+<#import "parts/ServiceForm.ftl" as s>
 
 <@c.page>
-    <@s.BookingRoom/>
+    <@s.service />
 </@c.page>

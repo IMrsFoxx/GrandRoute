@@ -130,20 +130,19 @@
                     <h1>Contact Form</h1>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Your name</label>
-                        <input type="text" autofocus required name="nameUser" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you Name">
+                        <input type="text" autocomplete="off"  required name="nameUser" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter you Name">
                         <input type="hidden" name="_csrf" value="${_csrf.token}">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Email</label>
-                        <input type="email" autofocus required name="emailUser" class="form-control" id="exampleInputPassword1" placeholder="Enter E-mail">
+                        <input type="email" autocomplete="off"  required name="emailUser" class="form-control" id="exampleInputPassword1" placeholder="Enter E-mail">
                         <input type="hidden" name="_csrf" value="${_csrf.token}">
 
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Phone</label>
-                        <input type="text" autofocus required name="phoneUser" class="form-control" id="exampleInputPassword1" placeholder="Phone">
-                        <input type="hidden" name="_csrf" value="${_csrf.token}">
-                    </div>
+                        <input type="text" autocomplete="off" required name="phoneUser" class="form-control" id="exampleInputPassword1" placeholder="Phone">
+                     </div>
                     <input type="hidden" name="_csrf" value="${_csrf.token}">
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
@@ -171,12 +170,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7003766.149115892!2d17.090422243006298!3d64.62335721508045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cadf4b32f6dd%3A0x146d63c75a810!2z0KTQuNC90LvRj9C90LTQuNGP!5e0!3m2!1sru!2sby!4v1556144130031!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
+  <section id="mu-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0"allowfullscreen></iframe>
+  </section>
+
 
 </@c.page>

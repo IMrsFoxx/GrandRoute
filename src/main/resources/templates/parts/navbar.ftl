@@ -14,16 +14,17 @@
         <div class="infthri col-lg-2">
             <div id="containerIntro">
                  <span>
-                    <a href="https://github.com/Tim01Bro/WolfNetwork.git"><h3><i class="fab fa-github"></i></h3></a>
-                    <a href="https://twitter.com"><h3><i class="fab fa-twitter"></i></h3></a>
-                    <a href="https://wolfnetwrokinc@gmail.com"><h3><i class="fab fa-google-plus"></i></h3></a>
+                    <a id="whiteText" href="https://github.com/Tim01Bro/WolfNetwork.git"><h3><i class="fab fa-github"></i></h3></a>
+                    <a id="whiteText" href="https://twitter.com"><h3><i class="fab fa-twitter"></i></h3></a>
+                    <a id="whiteText" href="https://wolfnetwrokinc@gmail.com"><h3><i class="fab fa-google-plus"></i></h3></a>
                  </span>
             </div>
         </div>
     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
     <button id="lok" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +32,7 @@
         <ul class="navbar-nav">
             <#if user??>
             <li class="nav-item">
-                <a class="nav-link" href="/greeting" id="kok"><p id="lol">Home</p></a>
+                <a class="nav-link" href="/" id="kok"><p id="lol">Home</p></a>
             </li>
             </#if>
             <#if user??>
@@ -46,12 +47,12 @@
             </#if>
             <#if user??>
             <li class="nav-item ">
-                <a class="nav-link" href="#"><p id="lol">Info</p></a>
+                <a class="nav-link" href="/info"><p id="lol">Info</p></a>
             </li>
             </#if>
             <#if isAdmin>
             <li class="nav-item ">
-                <a class="nav-link" href="/user"><p id="lol">User List</p></a>
+                <a class="nav-link" href="/user"><p id="lol">List user</p></a>
             </li>
             </#if>
             <#if isAdmin>
@@ -59,9 +60,24 @@
                 <a class="nav-link" href="/mainorder/orderList"><p id="lol">List order</p></a>
             </li>
             </#if>
+              <#if isAdmin>
+            <li class="nav-item ">
+                <a class="nav-link" href="/ListContactUs"><p id="lol">List contacs</p></a>
+            </li>
+              </#if>
 
         </ul>
-        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5><@l.logout /> <#else>Please, <a href="/login">Log in</a></#if></div>
 
-     </div>
+        <div class="navbar-text" id="fonty">
+        <div class="container">
+        <div class="row">
+        <#if user??> <h5>${name}</h5><@l.logout/>
+        </div>
+        <div class="row">
+        <#else>
+            Please, <a href="/login">Log in</a>
+        </div>
+        </div>
+        </#if>
+       </div>
 </nav>

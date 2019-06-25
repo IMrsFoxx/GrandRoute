@@ -38,7 +38,7 @@
 						<#if isRegisterForm>Registration <#else>Login</#if>
 					</span>
 
-                <div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
+                <div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
                     <span class="label-input100">Username</span>
                     <input class="input100" type="text" name="username" placeholder="Type your username">
                     <span class="focus-input100" data-symbol="&#xf206;"></span>
@@ -55,7 +55,7 @@
                            <input class="input100" type="password" name="confirm-password" placeholder="Type confirm password">
                            <span class="focus-input100" data-symbol="&#xf206;"></span>
                        </div>
-                   <div class="wrap-input100 validate-input m-b-23" data-validate = "Email is reauired">
+                   <div class="wrap-input100 validate-input m-b-23" data-validate = "Email is required">
                        <span class="label-input100">Email</span>
                        <input class="input100" type="email" name="email" placeholder="Type your email">
                        <span class="focus-input100" data-symbol="&#xf206;"></span>
@@ -74,10 +74,7 @@
                     </div>
                 </div>
                 <div class="flex-col-c p-t-155">
-						<span class="txt1 p-b-17">
-							Or Sign Up Using
-						</span>
-                    <#if !isRegisterForm><a class="txt2" href="/registration">Sign up</a></#if>
+                    <#if !isRegisterForm><a class="txt2" href="/registration"><h3>Sign up</h3></a></#if>
                 </div>
             </form>
         </div>
