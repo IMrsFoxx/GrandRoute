@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="field-wrap">
-                     <select typeof="text" name="food" class="form-control" id="exampleFormControlSelect1">
+                     <select typeof="text" name="Food" class="form-control" id="exampleFormControlSelect1">
                     <#list typeFood as food>
                      <option>${food}</option>
                     </#list>

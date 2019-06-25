@@ -21,6 +21,7 @@ public class ContactController {
     public String getListConctact(Model model){
         model.addAttribute ("conts",hotelBookingRepo.findAll ());
         return "ListContacts";
+
     }
 
     @GetMapping("/ListContactUs/{cont.id}")
